@@ -1,0 +1,18 @@
+
+<div>
+    <form [formGroup]="contactForm">
+    <p>name</p>
+    <input type="text" formControlName="value1">
+    <br><br>
+
+    <p>email</p>     
+    <input type="text" formControlName="value2">
+    <br><br>
+
+    <p>password</p>     
+    <input type="text" formControlName="value3">
+    <br><br>
+
+    <button (click)="adddata()"> <mat-icon>add</mat-icon> </button>
+</form>
+</div>
